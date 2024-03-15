@@ -16,6 +16,17 @@ main {
   min-height: 100%;
 }
 
+p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -27,9 +38,8 @@ main {
 
 .intro-chunk {
   height: 382px;
-  margin: 0 auto;
+  max-width: 415px;
   padding: 100px 0 85px 24px;
-  font-size: 1.25rem;
 }
 
 strong {
@@ -48,19 +58,16 @@ main {
   border-bottom: 8px solid hsla(45, 100%, 40%, 1);
   margin: 0;
   margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
-  padding: 16px 32 16px 32px;
+  padding: 16px 32px;
   width: fit-content;
 }
 
 .card {
   background: hsl(0deg, 0%, 100%);
-  margin: 0 auto;
+  margin: 0;
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
-  padding: 10px 0 0 24px;
-}
-
-.card p {
-  line-height: 30px;
-  font-size: 1.25rem;
+  padding: 24px;
 }
